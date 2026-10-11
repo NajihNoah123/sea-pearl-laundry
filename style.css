@@ -1,0 +1,160 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    font-family: Space Grotesk;
+    height: auto;
+    background-color: #213668;
+    color: white;
+    padding: 15px;
+    backdrop-filter: blur();
+    border: 3px rgba(white, white, white, 0.1) solid;
+    box-shadow: 0 8px 32px rgba(black, black, black, 0.8);
+    border-radius: 0 0 8px 8px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1 {
+    font-family: Stack Sans Headline;
+    margin-top: 78px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 70px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Stack Sans Headline;
+    color: white;
+}
+
+.header-links li a {
+    text-decoration: none;
+    font-family: Stack Sans Headline;
+    color: white;
+}
+
+.header-links li a:hover {
+    color: #3b82f6; 
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #022358;
+    color: white;
+    font-family: Stack Sans Headline;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.footer-content {
+    color: white;
+    font-family: Stack Sans Headline;
+    background-color:#022358;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.hero {
+    color: white;
+    font-family: Stack Sans Headline;
+    background-color:#569ac7;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+    height: 35vh;
+}
+
+.main-button {
+    color: white;
+    font-family: Stack Sans Headline;
+    background-color: orange;
+    width: 125px;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.inverted-button {
+    color: orange;
+    background-color: white;
+    border: 2px solid orange;
+    height: 45px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.laundry-img {
+    border-radius: 50px;
+    height: 250px;
+    width: auto;
+}
+
+.our-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Stack Sans Headline;
+}
+
+.our-services-content {
+    width: 800px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: Stack Sans Headline;
+    background-color: rgb(52, 179, 211);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.about {
+    width: 1200px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: Stack Sans Headline;
+    background-color: rgb(52, 179, 211);
+    border-radius: 30px;
+    padding: 20px;
+}
